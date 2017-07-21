@@ -1,0 +1,51 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'arial';
+    background-color:#3498db;
+}
+.wrap h2{
+    margin-bottom:30px;
+    text-align:center;
+}
+.wrap{
+    width:260px;
+    overflow: hidden;
+    margin: auto;
+    margin-top:150px;
+    margin-right: 60px;
+    margin-left:50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#fff;
+}
+.wrap input{
+    width: 240px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+}
+#admin{
+    float:left;
+}
+#user{
+    float:right;
+}
+.wrap .btn-login{
+    padding:5px;
+    width:250px;
+    height:30px;
+    background-color:#3498db;
+    color:#fff;
+    border-radius:10px;
+    border:0;
+    font-size:18px;
+}
